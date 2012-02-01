@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>English</string>
+	<key>CFBundleExecutable</key>
+	<string>${EXECUTABLE_NAME}</string>
+	<key>CFBundleIconFile</key>
+	<string></string>
+	<key>CFBundleIdentifier</key>
+	<string>uk.co.fredemmott.GenericPS2Keyboard</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>${PRODUCT_NAME}</string>
+	<key>CFBundlePackageType</key>
+	<string>KEXT</string>
+	<key>CFBundleShortVersionString</key>
+	<string>1.0</string>
+	<key>CFBundleSignature</key>
+	<string>????</string>
+	<key>CFBundleVersion</key>
+	<string>1</string>
+	<key>IOKitPersonalities</key>
+	<dict>
+		<key>GenericPS2Keyboard</key>
+		<dict>
+			<key>Swap alt and windows key</key>
+			<true/>
+			<key>Remap function keys</key>
+			<true/>
+			<key>Map capslock to keycode</key>
+			<integer>57</integer>
+			<key>IOProviderClass</key>
+			<string>ApplePS2KeyboardDevice</string>
+			<key>IOClass</key>
+			<string>GenericPS2Keyboard</string>
+			<key>CFBundleIdentifier</key>
+			<string>uk.co.fredemmott.GenericPS2Keyboard</string>
+		</dict>
+	</dict>
+	<key>NSHumanReadableCopyright</key>
+	<string>Copyright © 2012 __MyCompanyName__. All rights reserved.</string>
+	<key>OSBundleLibraries</key>
+	<dict>
+		<key>com.apple.kpi.mach</key>
+		<string>11.2</string>
+		<key>com.apple.kpi.libkern</key>
+		<string>11.2</string>
+		<key>com.apple.kpi.iokit</key>
+		<string>11.2</string>
+		<key>com.apple.iokit.IOHIDFamily</key>
+		<string>1.7.1</string>
+	</dict>
+</dict>
+</plist>
