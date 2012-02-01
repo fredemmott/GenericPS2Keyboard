@@ -6,6 +6,13 @@ It's a driver for PS/2 keyboards on modern Apple operating systems.
 I've taken Apple's open-source driver, and tried to make it useful for
 non-Apple keyboards.
 
+What else do I need?
+====================
+
+* [A fake PS/2 controller](https://github.com/fredemmott/ACPIPS2Nub),
+  assuming you have a relatively modern system
+* [A PS/2 controller driver](https://github.com/fredemmott/ApplePS2Controller)
+
 Features
 ========
 
